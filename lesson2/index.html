@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		
+		<style type="text/css">
+			/*通配选择器*/
+			* {
+				/*对所有标签都有用*/
+			}
+			
+			/*标签选择器*/
+			div {
+				/*选择全部的div标签*/
+			}
+			
+			/*class选择器*/
+			.item-email {
+				/*.开头，对使用该class的标签有用*/
+			}
+			
+			/*ID选择器*/
+			#asd {
+				/*#开头对使用该id的标签有效果*/
+			}
+			
+			/*双（多）选择器*/
+			.item-email.item-name {
+				/*对两个都进行设置，中间不加空格*/
+			}
+			/*父子选择器*/
+			.list .item {
+				/*中间有空格，对list下的item标签进行设置*/
+			}
+			
+			/*优先级由低到高：*/
+			/*
+			 * 0：通配符：*
+			 * 1：标签选择器： p
+			 * 2：class
+			 * 3：id
+			 * 4：标签内style：<div style="color:black;"></div>
+			 * 5：！important
+			 */
+			
+			p {
+				/*对齐方式*/
+				text-align: center;
+				
+				/*文本修饰*/
+				text-decoration: none;
+				
+				/*字间隔*/
+				letter-spacing: 20px;
+				
+				/*字缩进*/
+				/* text-indent: ; */
+				
+				/*行高*/
+				line-height: 30px;
+			}
+			
+			div{
+				/*背景颜色*/
+				/* background-color: ; */
+				
+				/*背景图片*/
+				background-image: url();
+				
+				/*背景重复*/
+				background-repeat: no-repeat;
+				
+				/*背景图片大小，两个属性：X方向和Y方向*/
+				/* background-size: ; */
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		<div class="item-email" id="asd">
+			<p>as大赛</p>
+		</div>
+	</body>
+</html>
