@@ -63,17 +63,19 @@ p {
 
 在 CSS 中，每一个元素的都被当做一个盒子，简称为盒模型。每个盒子都有 Margin(外边距)，用来清除边框外的区域，外边距是透明的；Border(边框)，用来围绕在内边距和内容外的边框；Padding(内边距)，用来清除内容周围的区域，内边距是透明的；Content(内容)，盒子的内容，显示文本和图像。
 
-width 宽度，宽度的单位有 px，vh，%
+### width 宽度
+宽度的单位有 px，vh，%
 
-height 高度
+### height 高度
 
-margin 外边距
+### margin 外边距
 
-padding 内边距
+### padding 内边距
 
-border 定义边框样式，可以分为 border-width、border-style、border-color，这三个参数都可以单独定义
+### border 定义边框样式
+可以分为 border-width、border-style、border-color，这三个参数都可以单独定义
 
-box-sizing 盒模型尺寸计算方式
+### box-sizing 盒模型尺寸计算方式
 
 ## 2、位置定义
 
