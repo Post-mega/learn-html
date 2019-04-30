@@ -63,60 +63,60 @@ p {
 
 在 CSS 中，每一个元素的都被当做一个盒子，简称为盒模型。每个盒子都有 Margin(外边距)，用来清除边框外的区域，外边距是透明的；Border(边框)，用来围绕在内边距和内容外的边框；Padding(内边距)，用来清除内容周围的区域，内边距是透明的；Content(内容)，盒子的内容，显示文本和图像。
 
-### width 宽度
+- width 宽度
 宽度的单位有 px，vh，%
 
-### height 高度
+- height 高度
 
-### margin 外边距
+- margin 外边距
 
-### padding 内边距
+- padding 内边距
 
-### border 定义边框样式
+- border 定义边框样式
 可以分为 border-width、border-style、border-color，这三个参数都可以单独定义
 
-### box-sizing 盒模型尺寸计算方式
+- box-sizing 盒模型尺寸计算方式
 
 ## 2、位置定义
 
-### float 漂浮
+- float 漂浮
 
-### position 定位方式
+- position 定位方式
 
-### top 距离顶部
+- top 距离顶部
 
-### left 左侧距离
+- left 左侧距离
 
-### right 右侧距离
+- right 右侧距离
 
-### bottom 底部距离
+- bottom 底部距离
 
-### z-index 垂直距离
+- z-index 垂直距离
 
 ## 3、文字修饰
 
-### font-size 文字大小
+- font-size 文字大小
 
-### text-align 文本对齐
+- text-align 文本对齐
 
-### text-decoration 文本修饰
+- text-decoration 文本修饰
 
-### letter-spacing 文字间隔
+- letter-spacing 文字间隔
 
-### text-indent 文字缩进
+- text-indent 文字缩进
 
-### line-height 行高
+- line-height 行高
 
 ## 4、背景颜色
 
-### background-color 背景颜色
+- background-color 背景颜色
 
-### background-image 背景图片
+- background-image 背景图片
 
-### background-repeat 背景重复
+- background-repeat 背景重复
 
-### background-size 背景图片大小
+- background-size 背景图片大小
 
 ## 5、其他类型
 
-### box-shadow
+- box-shadow
