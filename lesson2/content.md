@@ -66,21 +66,7 @@ p {
 ### width 宽度
 宽度的单位有 px，vh，%
 
-### max-width 最大宽度
-
-
-### min-width 最小宽度
-
-
 ### height 高度
-
-### max-height 最大高度
-
-默认值是 0 
-
-### min-height 最小高度
-
-
 
 ### margin 外边距
 
@@ -93,59 +79,44 @@ p {
 
 ## 2、位置定义
 
-| 属性名称 | 描述 | CSS 版本 |
-| :--- | :--- | :---: |
-|float |漂浮|
-|
-|position |定位方式|
-|
-|top |距离顶部|
-|
-|left |左侧距离|
-|
-|right |右侧距离|
-|
-|bottom |底部距离|
-|
-|z-index |垂直距离|
-|
+### float 漂浮
+
+### position 定位方式
+
+### top 距离顶部
+
+### left 左侧距离
+
+### right 右侧距离
+
+### bottom 底部距离
+
+### z-index 垂直距离
 
 ## 3、文字修饰
 
-| 属性名称 | 描述 | CSS 版本 |
-| :--- | :--- | :---: |
-|font-size | 文字大小 |
-|
-|text-align | 文本对齐 |
-|
-|text-decoration | 文本修饰 |
-|
-|letter-spacing | 文字间隔 |
-|
-|text-indent | 文字缩进 |
-|
-|line-height | 行高 |
-|
+### font-size 文字大小
+
+### text-align 文本对齐
+
+### text-decoration 文本修饰
+
+### letter-spacing 文字间隔
+
+### text-indent 文字缩进
+
+### line-height 行高
 
 ## 4、背景颜色
 
-| 属性名称 | 描述 | CSS 版本 |
-| :--- | :--- | :---: |
-|background-color |背景颜色| |
-|background-image |背景图片| |
-|background-repeat |背景重复| |
-|background-size |背景图片大小| |
+### background-color 背景颜色
 
-## 5、动画属性
+### background-image 背景图片
 
-| 属性名称 | 描述 | CSS 版本 |
-| :--- | :--- | :---: |
-|@keyframes	| 定义一个动画,@keyframes定义的动画名称用来被animation-name所使用。 | 3 |
-|animation | 复合属性。检索或设置对象所应用的动画特效。	| 3 |
-|animation-name	|检索或设置对象所应用的动画名称 ,必须与规则@keyframes配合使用，因为动画名称由@keyframes定义	|3|
-|animation-duration	|检索或设置对象动画的持续时间	|3|
-|animation-timing-function	|检索或设置对象动画的过渡类型	|3|
-|animation-delay	|检索或设置对象动画的延迟时间	|3|
-|animation-iteration-count	|检索或设置对象动画的循环次数	|3|
-|animation-direction	|检索或设置对象动画在循环中是否反向运动	|3|
-|animation-play-state	|检索或设置对象动画的状态	|3|
+### background-repeat 背景重复
+
+### background-size 背景图片大小
+
+## 5、其他类型
+
+### box-shadow
