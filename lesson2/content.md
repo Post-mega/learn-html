@@ -120,3 +120,10 @@ p {
 ## 5、其他类型
 
 - box-shadow
+
+## 6、动画
+
+- animation
+
+- keyframes
+
